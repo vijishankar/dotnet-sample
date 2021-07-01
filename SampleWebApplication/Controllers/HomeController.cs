@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace SampleWebApplication.Controllers
 {
-System.Diagnostics.Trace.TraceError("Error found");
+
     
     public class HomeController : Controller
     {
@@ -16,6 +16,7 @@ System.Diagnostics.Trace.TraceError("Error found");
         {
             return View();
         }
+        System.Diagnostics.Trace.TraceError("Error found");
 
         public ActionResult About()
         {
