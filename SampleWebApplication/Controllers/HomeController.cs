@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,13 +15,14 @@ namespace SampleWebApplication.Controllers
         public ActionResult Index()
         {
             return View();
+       
         }
-        System.Diagnostics.Trace.TraceError("Error found");
+       
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            System.Diagnostics.Trace.TraceError("Error found");
             return View();
         }
 
