@@ -7,9 +7,11 @@ using System.Diagnostics;
 
 namespace SampleWebApplication.Controllers
 {
+System.Diagnostics.Trace.TraceError("Error found");
+    
     public class HomeController : Controller
     {
-    System.Diagnostics.Trace.TraceError("Error found");
+    
         public ActionResult Index()
         {
             return View();
