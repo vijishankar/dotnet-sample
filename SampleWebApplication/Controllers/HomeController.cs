@@ -8,6 +8,7 @@ namespace SampleWebApplication.Controllers
 {
     public class HomeController : Controller
     {
+    System.Diagnostics.Trace.TraceError("Error found");
         public ActionResult Index()
         {
             return View();
